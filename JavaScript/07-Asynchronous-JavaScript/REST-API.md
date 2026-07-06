@@ -2,8 +2,8 @@
 
 ## 📌 Definition
 
-- REST stands for Represantational State Transfer.
-- REST is a stander way for designing web APIs.
+- REST stands for Representational State Transfer.
+- REST is a standard way for designing web APIs.
 - It defines how clients and servers communicate using HTTP.
 
 ---
@@ -12,7 +12,7 @@
 
 Why was this feature added to JavaScript?
 
-- REST exist to provide, stander way for clients and servers to communicate over HTTP.
+- REST exist to provide, standard way for clients and servers to communicate over HTTP.
 
 ---
 
@@ -20,7 +20,7 @@ Why was this feature added to JavaScript?
 
 What was difficult before this feature existed?
 
-- REST solve the problem of having a way to access and manupulate data on a server.
+- REST solve the problem of having a way to access and manipulate data on a server.
 
 ## 🕒 When should I use it?
 
@@ -37,9 +37,9 @@ between a client and a server.
 
 Explain what JavaScript does behind the scenes.
 
-1. The client send HTTP request. /posts
-2. The sever fulfill the request.
-3. The sever returns the JSON to the client.
+1. The client sends HTTP request. /posts
+2. The server fulfill the request.
+3. The server returns the JSON to the client.
 
 ---
 
@@ -59,8 +59,9 @@ baseURL = "https://jsonplaceholder.typicode.com/posts/1";
 
 Small syntax example.
 
+- GET /posts
 - GET /posts/1
-- POST /posts/1
+- POST /posts
 - PUT /posts/1
 - DELETE /posts/1
 
@@ -99,7 +100,7 @@ Small project ideas.
 
 Something easy to remember.
 
-REST API = Standard way for designing web APIs
+- REST = Rules for talking to a server
 
 ---
 
@@ -121,6 +122,14 @@ A:
 
 ## ⭐ Key Takeaways
 
-- It provides consistent way to access and manupulate data on a server.
-- It allow us to add resources after endpoint of HTTP request.
-- ...
+- REST provides a standard way for clients and servers to communicate.
+- REST uses HTTP methods like GET, POST, PUT, and DELETE.
+- Servers commonly return JSON data.
+- Resources are identified by URLs.
+
+## 🚀 What I Learned Today
+
+- REST is not a JavaScript feature.
+- REST is an architectural style.
+- REST uses HTTP methods.
+- APIs commonly follow REST principles.
