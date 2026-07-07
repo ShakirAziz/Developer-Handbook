@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Layout Styles */
+.app-container {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  min-width: 300px;
+}
+
+.app {
+  padding: 1.25em;
+}
+
+.app-form {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5em;
+}
+
+.app-form-color {
+  border: none;
+  background-color: #e5e5e5;
+  border-radius: 4px;
+}
+
+.app-form-select {
+  border: 1px solid #374151;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  padding: 0.5em;
+}
+
+.app-form-btn {
+  color: #374151;
+  background-color: transparent;
+  border: 1px solid #374151;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.color-scheme-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.color-scheme-item {
+  flex: 1;
+  height: 40vh;
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.color-value {
+  padding: 0.5em;
+  text-align: center;
+  font-size: 0.9rem;
+}

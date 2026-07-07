@@ -4,6 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Color Scheme Generator</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <div id="app" class="app-container">
+      <div class="app app-header">
+        <form id="color-scheme-form" class="app-form">
+          <input
+            type="color"
+            name="color"
+            id="color"
+            value="#f15025"
+            class="app-form-color"
+          />
+          <select name="scheme-mode" id="scheme-mode" class="app-form-select">
+            <option value="monochrome">Monochrome</option>
+            <option value="monochrome-dark">Monochrome-dark</option>
+            <option value="monochrome-light">Monochrome-light</option>
+            <option value="analogic">Analogic</option>
+            <option value="complement">Complement</option>
+            <option value="analogic-complement">Analogic-complement</option>
+            <option value="triad">Triad</option>
+            <option value="quad">Quad</option>
+          </select>
+          <button type="submit" class="app-form-btn">Get Color Scheme</button>
+        </form>
+      </div>
+      <div class="color-scheme-container" id="color-scheme-container"></div>
+    </div>
+    <script src="main.js" type="module"></script>
+  </body>
 </html>
