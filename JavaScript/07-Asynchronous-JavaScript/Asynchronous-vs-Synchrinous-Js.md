@@ -28,7 +28,7 @@ What was difficult before this feature existed?
 
 2- Asynchronous Js:
 
-- With Asynchronous Js it will execute the other code while waiting for the fetching data to arrives.
+- With Asynchronous Js will executes the other code while waiting for the fetching data to arrive.
 
 ---
 
