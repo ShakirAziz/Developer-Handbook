@@ -20,7 +20,7 @@ Why was this feature added to JavaScript?
 
 What was difficult before this feature existed?
 
-- REST solve the problem of having a way to access and manipulate data on a server.
+- REST solve the problem of having a consistent way to access and manipulate data on a server.
 
 ## 🕒 When should I use it?
 
@@ -38,8 +38,9 @@ between a client and a server.
 Explain what JavaScript does behind the scenes.
 
 1. The client sends HTTP request. /posts
-2. The server fulfill the request.
+2. The server processes the request.
 3. The server returns the JSON to the client.
+4. The client display the JSON data.
 
 ---
 
@@ -47,7 +48,7 @@ Explain what JavaScript does behind the scenes.
 
 Use a real-life analogy.
 
-- Suppose you are ordering a pizza. The waiter gives you a list of all the pizza flavors. You need to select one specific flavor from the list. After selecting a flavor your order is placed and the wait deliver your order.
+- Suppose you are ordering a pizza. The waiter gives you a list of all the pizza flavors. You need to select one specific flavor from the list. After selecting a flavor your order is placed and the waiter deliver your order.
 
 ---
 
@@ -116,7 +117,7 @@ A:
 
 - HTTP methods
 - URL parameters
-- JSON
+- Query Strings
 
 ---
 
