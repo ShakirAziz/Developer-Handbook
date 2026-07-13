@@ -13,5 +13,5 @@
 - [x] Arrays
 - [x] map()
 - [x] reduce()
-- [ ] filter()
-- [ ] sort()
+- [x] filter()
+- [x] sort()
