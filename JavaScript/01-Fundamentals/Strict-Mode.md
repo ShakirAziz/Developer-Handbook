@@ -4,6 +4,8 @@
 
 Write a short and simple definition.
 
+-
+
 ---
 
 ## ❓ Why does this exist?
