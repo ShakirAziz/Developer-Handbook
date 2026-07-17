@@ -2,61 +2,97 @@
 
 Welcome to my personal **Developer Handbook**.
 
-This repository is where I document everything I learn on my journey to becoming a **Full-Stack Web Developer**. Instead of just collecting code, I explain concepts in my own words to build a deeper understanding.
+This repository is my personal knowledge base where I document everything I learn on my journey to becoming a **Full-Stack Software Engineer with Cybersecurity expertise**.
+
+Rather than simply collecting code snippets, I explain concepts in my own words, build projects, document best practices, and create a long-term reference that I can revisit throughout my career.
 
 ---
 
-## 🎯 Current Goal
+# 🎯 Current Goal
 
-Become a professional **Full-Stack Web Developer**.
+Become a professional **Full-Stack Software Engineer** who builds modern, secure, and scalable applications while developing strong expertise in **Cybersecurity**.
 
 ---
 
-## 📖 Current Learning Path
+# 📖 Current Learning Path
+
+### 💻 Full-Stack Development
 
 - ✅ Scrimba Full-Stack Developer Career Path
 
+### 🛡️ Cybersecurity
+
+- ✅ Google Cybersecurity Professional Certificate (Scholarship)
+
 ---
 
-## 📚 Current Section
+# 📚 Current Focus
 
 - JavaScript Essentials
+- Secure Coding Fundamentals
+- Building a Strong Developer Portfolio
 
 ---
 
-## 📈 Progress
+# 📈 Progress
+
+### Full-Stack Development
 
 🟩 35%
 
----
+### Cybersecurity
 
-## 📝 What You'll Find Here
-
-- JavaScript concepts
-- Code examples
-- Personal notes
-- Mini projects
-- Best practices
-- Common beginner mistakes
-- Learning resources
+🟨 Starting Soon
 
 ---
 
-## 🚀 My Learning Framework
+# 📝 What You'll Find Here
 
-For every new concept, I answer these questions:
+## 💻 Full-Stack Development
 
-- ❓ Why does this exist?
-- 🎯 What problem does it solve?
-- 🕒 When should I use it?
+- HTML
+- CSS
+- JavaScript
+- React
+- Node.js
+- Databases
+- Git & GitHub
+- Projects
+- Best Practices
+
+## 🛡️ Cybersecurity
+
+- Networking
+- Linux
+- Web Security
+- Secure Coding
+- Security Tools
+- Digital Forensics
+- Incident Response
+- Notes from the Google Cybersecurity Professional Certificate
+
+---
+
+# 🚀 My Learning Framework
+
+For every topic, I answer questions such as:
+
+- 📌 What is it?
+- 🎯 Why is it important?
+- ❓ What problem does it solve?
 - ⚙️ How does it work?
-- 👶 Can I explain it to a 10-year-old?
+- 🛡️ How can it be used securely?
+- 💡 Real-world example
+- 🧠 Memory trick
+- 🎤 Interview question
 
-This helps me understand concepts instead of just memorizing syntax.
+The goal is to truly understand concepts instead of memorizing syntax.
 
 ---
 
-## 🛠️ Technologies
+# 🛠️ Technologies
+
+## Current
 
 - HTML
 - CSS
@@ -64,16 +100,34 @@ This helps me understand concepts instead of just memorizing syntax.
 - Git
 - GitHub
 
-_(More technologies will be added as I continue learning.)_
+## Learning Next
+
+- React
+- Node.js
+- Express
+- SQL
+- Python
+- Linux
+- Cybersecurity
+
+_(This list will continue to grow throughout my career.)_
 
 ---
 
-## 🌱 Learning Philosophy
+# 🌱 Learning Philosophy
 
-> "Don't memorize code. Understand why it exists."
+> **"Don't memorize code. Understand why it exists."**
 
-I believe consistent practice, building projects, and documenting what I learn are the best ways to become a better developer.
+I believe great developers never stop learning.
+
+By consistently studying, building real projects, documenting my knowledge, and applying secure development practices, I'm creating a strong foundation for a long-term career in software engineering and cybersecurity.
 
 ---
 
-⭐ Thanks for visiting my Developer Handbook!
+# 🚀 Long-Term Vision
+
+Build **CodeByShakir** into a trusted technology brand known for developing modern, secure, and high-quality software that solves real-world problems.
+
+---
+
+⭐ Thank you for visiting my Developer Handbook!
