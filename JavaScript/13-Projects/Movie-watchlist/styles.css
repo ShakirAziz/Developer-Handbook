@@ -83,7 +83,7 @@ body {
   padding: 0 2.5em;
   position: absolute;
   width: 100%;
-  top: 35%;
+  top: 208px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -115,11 +115,11 @@ body {
 .watchlist-main {
   padding: 2.5em;
   position: relative;
-  height: 65vh;
+  min-height: 65vh;
 }
 
 .start-exploring {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -135,4 +135,91 @@ body {
   text-align: center;
   color: #dfdddd;
   margin: 0;
+}
+
+/* Watchlist Movies */
+.watchlist-movies {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  height: 100%;
+}
+
+.watchlist-movie {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  padding: 1em;
+}
+
+.movie-img {
+  width: 15%;
+}
+
+.movie-img img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.watchlist-movie p,
+h2 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.watchlist-movie p {
+  font-size: 0.8rem;
+}
+
+.movie-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #111827;
+  gap: 0.8em;
+}
+
+.movie-rating {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.star-color {
+  color: #fec654;
+}
+
+.movie-info-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movie-info-body {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.watchlist-button {
+  background: none;
+  padding: 0;
+  border: none;
+}
+
+.watchlist-button:hover {
+  cursor: pointer;
+  color: #141414;
+}
+
+.movie-info-footer p {
+  width: 100%;
+  margin: 0;
+  font-size: 1rem;
+  color: #6b7280;
 }
