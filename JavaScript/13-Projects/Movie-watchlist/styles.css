@@ -1,0 +1,138 @@
+*::before,
+*::after,
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #141414;
+  margin: 0;
+  padding: 0;
+}
+
+/* Watchlist Container */
+.watchlist-container {
+  max-width: 800px;
+  margin: 3em auto;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 8px;
+  position: relative;
+}
+
+/* Watchlist Header */
+.watchlist-header {
+  width: 100%;
+  background: url(./images/andre-tan-THJJRUhNlEc-unsplash.jpg) center/ cover
+    no-repeat;
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  position: relative;
+}
+
+.bg-transparent {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(20, 20, 20, 0.5);
+  position: absolute;
+}
+
+.watchlist-nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2.5em;
+  color: #fff;
+  z-index: 1;
+}
+
+.watchlist-nav h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin: 0;
+}
+
+.watchlist-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.watchlist-nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+.watchlist-nav ul li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #d1d5db;
+}
+
+/* Watchlist Search */
+.watchlist-search {
+  display: flex;
+  padding: 0 2.5em;
+  position: absolute;
+  width: 100%;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.watchlist-search input {
+  width: 80%;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.watchlist-search input,
+.watchlist-search button {
+  padding: 0.5em;
+  border: 1px solid #d1d5db;
+  font-size: 1rem;
+}
+
+.watchlist-search button {
+  width: 20%;
+  border-radius: 0 4px 4px 0;
+}
+
+.watchlist-search button:hover {
+  cursor: pointer;
+  background-color: #d1d5db;
+}
+
+/* Watchlist Main */
+.watchlist-main {
+  padding: 2.5em;
+  position: relative;
+  height: 65vh;
+}
+
+.start-exploring {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.start-exploring p {
+  font-size: 1.25rem;
+  text-align: center;
+  color: #dfdddd;
+  margin: 0;
+}
